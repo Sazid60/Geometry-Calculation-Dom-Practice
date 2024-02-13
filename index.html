@@ -99,20 +99,20 @@
                         <p class=" text-2xl">Area (A) = 0.5 X d<sub>1</sub> X d <sub>2</sub></p>
                         <div class="p-5">
                             <!-- Rhombus d1 -->
-                            <input id="rectangle-width" class="w-24 border-2 border-gray-700 text-2xl rounded-lg p-2"
+                            <input id="rhombus-d1" class="w-24 border-2 border-gray-700 text-2xl rounded-lg p-2"
                                 type="text" placeholder="d1">
                             <span class="mr-4 ml-1">cm</span>
                             <!-- Rhombus d2-->
-                            <input id="rectangle-length" class="w-24 border-2 border-gray-700 text-2xl rounded-lg p-2"
+                            <input id="rhombus-d2" class="w-24 border-2 border-gray-700 text-2xl rounded-lg p-2"
                                 type="text" placeholder="d2">
                             <span class="ml-1">cm</span>
                         </div>
                         <div>
-                            <p class="text-2xl">Area : <span id="rectangle-area">0</span><span> Cm<sup>2</sup></span>
+                            <p class="text-2xl">Area : <span id="rhombus-area">0</span><span> Cm<sup>2</sup></span>
                             </p>
                         </div>
                         <div class="card-actions w-full">
-                            <button onclick="calculateRectangleArea()" class="btn btn-primary w-full">Calculate</button>
+                            <button onclick="calculateRhombusArea()" class="btn btn-primary w-full">Calculate</button>
                         </div>
                     </div>
                 </div>
@@ -120,8 +120,8 @@
                 <div class="card w-96 bg-base-100 shadow-xl p-1">
                     <figure><img src="images/pentagon.png" alt="rectangle" /></figure>
                     <div class="card-body items-center">
-                        <h2 class="card-title text-3xl ">Rectangle</h2>
-                        <p class=" text-2xl">Area (A) = w X I</p>
+                        <h2 class="card-title text-3xl ">Pentagon</h2>
+                        <p class=" text-2xl">Area (A) = 0.5 X p X b</p>
                         <div class="p-5">
                             <!-- Rectange Width -->
                             <input id="rectangle-width" class="w-24 border-2 border-gray-700 text-2xl rounded-lg p-2"
@@ -137,7 +137,7 @@
                             </p>
                         </div>
                         <div class="card-actions w-full">
-                            <button onclick="calculateRectangleArea()" class="btn btn-primary w-full">Calculate</button>
+                            <button onclick="calculatePentagonArea()" class="btn btn-primary w-full">Calculate</button>
                         </div>
                     </div>
                 </div>
@@ -176,6 +176,7 @@
     <script src="scripts/triangle-calculate.js"></script>
     <script src="scripts/rectangel-calculate.js"></script>
     <script src="scripts/parallelogram-calculate.js"></script>
+    <script src="scripts/rhombus-calculate.js"></script>
 </body>
 
 </html>
