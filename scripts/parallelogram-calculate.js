@@ -7,6 +7,14 @@ const area = base * height;
 
 setInnerTextById('parallelogram-area', area);
 
+//for side area box
+const sideContainer = document.getElementById('area-container')
+const newParagraph = document.createElement('p');
+newParagraph.style.fontSize='20px';
+newParagraph.style.fontWeight ='600'
+newParagraph.style.paddingTop ='20px';
+newParagraph.innerText = 'Pralellogram Area is ='+ area;
+sideContainer.appendChild(newParagraph)
 
 // console.log(base);
 }

@@ -19,4 +19,13 @@ function calculateRectangleArea(){
     const rectangleAreaSpan = document.getElementById('rectangle-area');
     rectangleAreaSpan.innerText = area;
 
+    //for side area box
+    const sideContainer = document.getElementById('area-container')
+    const newParagraph = document.createElement('p');
+    newParagraph.style.fontSize='20px';
+    newParagraph.style.fontWeight ='600'
+    newParagraph.style.paddingTop ='20px';
+    newParagraph.innerText = 'Rectangle Area is='+ area;
+    sideContainer.appendChild(newParagraph)
+
 }
